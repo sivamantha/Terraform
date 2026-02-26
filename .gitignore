@@ -1,0 +1,15 @@
+# Terraform internals
+.terraform/
+*.tfstate
+*.tfstate.backup
+tfplan
+*.tfplan
+
+# Secret Files
+secrets.tfvars
+*.auto.tfvars
+backend.hcl
+
+# OS clutter
+.DS_Store
+*.log
